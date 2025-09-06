@@ -1,0 +1,27 @@
+{
+  "org": "$HZN_ORG_ID",
+  "label": "$SERVICE_NAME for $ARCH",
+  "description": "An Open Horizon service to demonstrate EdgeLake's Federated Learning capabilities",
+  "documentation": "https://github.com/open-horizon-services/service-edgelake-federated-learning/blob/main/README.md",
+  "url": "$SERVICE_NAME",
+  "version": "$SERVICE_VERSION",
+  "arch": "$ARCH",
+  "public": true,
+  "sharable": "singleton",
+  "requiredServices": [],
+  "userInput": [],
+  "deployment": {
+    "services": {
+      "$SERVICE_NAME": {
+        "image": "$SERVICE_CONTAINER",
+        "ports": [ 
+          { 
+            "HostIP": "0.0.0.0", 
+            "HostPort": "8000:8000/tcp" 
+          }
+        ]
+      }
+    }
+  }
+}
+
