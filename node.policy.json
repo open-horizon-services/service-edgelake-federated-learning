@@ -5,7 +5,7 @@
 			"value": false
 		},
 		{
-			"name": "purpose",
+			"name": "role",
 			"value": "federated-learning"
 		}
 ],
