@@ -15,7 +15,7 @@
     "properties": [
     ],
     "constraints": [ 
-         "purpose == federated-learning"
+         "role == federated-learning"
     ], 
     "userInput": [ 
       {            
