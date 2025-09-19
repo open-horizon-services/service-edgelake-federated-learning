@@ -17,7 +17,7 @@
         "ports": [ 
           { 
             "HostIP": "0.0.0.0", 
-            "HostPort": "8000:8000/tcp" 
+            "HostPort": "8080:8080/tcp" 
           }
         ]
       }

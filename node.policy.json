@@ -4,6 +4,10 @@
 			"name": "openhorizon.allowPrivileged",
 			"value": false
 		},
+        {
+            "name": "purpose",
+            "value": "edgelake"
+        },
 		{
 			"name": "role",
 			"value": "federated-learning"
