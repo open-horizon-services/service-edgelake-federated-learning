@@ -2,7 +2,7 @@
     "properties": [
 		{
 			"name": "openhorizon.allowPrivileged",
-			"value": false
+			"value": true
 		},
         {
             "name": "purpose",
@@ -12,6 +12,6 @@
 			"name": "role",
 			"value": "federated-learning"
 		}
-],
+	],
   "constraints": []
 }
