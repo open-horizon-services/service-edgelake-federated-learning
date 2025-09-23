@@ -75,7 +75,7 @@ test:
 push:
 	docker push $(SERVICE_CONTAINER)
 
-publish: publish-service publish-service-policy publish-deployment-policy
+publish: publish-service publish-deployment-policy
 
 remove: remove-deployment-policy remove-service-policy remove-service
 	
